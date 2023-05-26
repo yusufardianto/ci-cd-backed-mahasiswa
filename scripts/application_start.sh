@@ -2,7 +2,7 @@
 sudo chmod -R 777 /home/ec2-user/mahasiswa
 
 # pindah ke directory
-cd /home/ec2-user/node-aws
+cd /home/ec2-user/mahasiswa
 
 # add npm and node to path
 export NVM_DIR="$HOME/.nvm"
