@@ -14,6 +14,10 @@ export const getUsers = async (req, res) => {
     console.log(error.message);
   }
 };
+export const getHello = (async) => {
+  const response = alert("Hello World");
+  console.log("Hello WOrld");
+};
 
 export const getUserById = async (req, res) => {
   try {
